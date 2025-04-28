@@ -30,6 +30,7 @@ DEVELOPED BY: DAKSHA SUBBAIAN
 REGISTER NUMBER: 212223230036
 
 ```
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -71,7 +72,7 @@ y_pred_poly = poly_model.predict(X_test)
 # Evaluate Models
 
 print("Linear Regression:")
-print(f"MSE: {mean_squared_error(y_test, y_pred_linear):.2f")
+print(f"MSE: {mean_squared_error(y_test, y_pred_linear):.2f}")
 print(f"R2: {r2_score(y_test, y_pred_linear):.2f}")
 
 print("\nPolynomial Regression:")
@@ -89,12 +90,14 @@ plt.ylabel("Predicted Price")
 plt.title("Linear vs Polynomial Regression")
 plt.legend()
 plt.show()
+
 ```
 
 ## Output:
-![Screenshot 2025-04-18 100134](https://github.com/user-attachments/assets/d7c28a62-8198-4dc8-ad55-d56b87241463)
-![Screenshot 2025-04-18 100157](https://github.com/user-attachments/assets/51573b2e-f1fc-4072-9c97-b426e2dcf7b7)
-![Screenshot 2025-04-18 100208](https://github.com/user-attachments/assets/d01b7a44-bb43-47f6-bf7e-788cbf0f6ce8)
+![image](https://github.com/user-attachments/assets/34e25f1c-122e-48d4-8eec-c87f404ee122)
+![image](https://github.com/user-attachments/assets/3fbe3afa-1872-4fcd-a2d2-a0d0dffbab51)
+
+
 
 
 
